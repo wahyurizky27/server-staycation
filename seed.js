@@ -2,7 +2,7 @@ var seeder = require('mongoose-seed');
 var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
-seeder.connect('mongodb://127.0.0.1:27017/db_staycation_seeder', {
+seeder.connect('"mongoURI": mongodb://wahyu234:Wahyuroxy2345@cluster0-shard-00-00.z6vdu.mongodb.net:27017,cluster0-shard-00-01.z6vdu.mongodb.net:27017,cluster0-shard-00-02.z6vdu.mongodb.net:27017/db_staycation?ssl=true&replicaSet=cluster0-shard-0&authSource=admin&retryWrites=true', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
