@@ -38,6 +38,9 @@ app.use(session({
 }));
 app.use(flash());
 app.use(cors())
+app.get('https://admin-staycationbtm.herokuapp.com/api/v1/member/landing-page', function (req, res, next) {
+  res.json({msg: 'This is CORS-enabled for all origins!'})
+})
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
