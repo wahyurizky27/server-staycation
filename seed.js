@@ -79,11 +79,10 @@ var data = [
       // houses
       // done
       {
-        // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
         title: 'Tabby Town',
         price: 12,
-        sumBooking: 2,
+        sumBooking: 1,
         country: 'Indonesia',
         city: 'Lampung',
         isPopular: false,
@@ -91,11 +90,11 @@ var data = [
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb4') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb5') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb6') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
         ],
         featureId: [
           // done
@@ -120,7 +119,8 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08') }
-        ]
+        ],
+        categoryId: '5e96cbe292b97300fc901111'
       },
       // done
       {
@@ -128,7 +128,7 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
         title: 'Seattle Rain',
         price: 20,
-        sumBooking: 4,
+        sumBooking: 2,
         country: 'Indonesia',
         city: 'Bandung',
         isPopular: false,
@@ -136,11 +136,11 @@ var data = [
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb4') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb5') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb6') }
         ],
         featureId: [
           // done
@@ -165,7 +165,8 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
-        ]
+        ],
+        categoryId: '5e96cbe292b97300fc901111'
       },
 
     ]

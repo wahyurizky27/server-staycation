@@ -321,6 +321,7 @@ module.exports = {
             const item = await Item.findOne({_id: id})
             .populate({ path:'imageId', select: 'id imageUrl' })
             .populate({ path:'categoryId', select: 'id name' });
+            console.log(item);
             const category = await Category.find();
             const alertMessage = req.flash('alertMessage');
             const alertStatus = req.flash('alertStatus');
